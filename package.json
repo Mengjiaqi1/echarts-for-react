@@ -1,7 +1,6 @@
 {
   "name": "echarts-for-react",
   "version": "2.0.16",
-  "description": "baidu Echarts(v3.x & v4.x) components for react.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -9,7 +8,7 @@
     "lib"
   ],
   "scripts": {
-    "start": "webpack-dev-server --watch",
+    "start": "webpack-dev-server --watch --open",
     "lint": "eslint src && eslint __tests__ && eslint demo/src",
     "clean": "rimraf lib/core.js && rimraf lib/index.js",
     "test": "npm run lint && npm run cover",
@@ -20,8 +19,7 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/hustcc/echarts-for-react.git"
+    "type": "git"
   },
   "keywords": [
     "react",
@@ -34,12 +32,9 @@
     "graph",
     "react-component"
   ],
-  "author": "hustcc (http://github.com/hustcc)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hustcc/echarts-for-react/issues"
-  },
-  "homepage": "https://github.com/hustcc/echarts-for-react",
+
+
+
   "devDependencies": {
     "76": "^0.0.4",
     "babel-cli": "^6.26.0",

@@ -1,7 +1,4 @@
-/**
- * Created by hustcc.
- * Contract: i@hust.cc
- */
+
 
 import 'babel-polyfill';
 import { Application, Module } from '76';
